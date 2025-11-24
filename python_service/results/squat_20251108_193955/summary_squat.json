@@ -1,0 +1,13 @@
+{
+  "exercise_name": "squat",
+  "total_reps": 5,
+  "ai_form_score": 40.65,
+  "similarity": -0.187,
+  "feedback": [
+    "Significant deviation \u2014 revisit fundamentals.",
+    "Back rounding detected \u2014 engage your core.",
+    "Knees caving inward \u2014 push outward.",
+    "Insufficient hip depth \u2014 go slightly lower."
+  ],
+  "timestamp": "20251108_193955"
+}
