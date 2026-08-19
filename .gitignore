@@ -25,3 +25,12 @@ logs
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated exercise analysis files
+python_service/uploads/
+python_service/results/
+
+# Python virtual environment.venv/
+venv/
+__pycache__/
+*.pyc

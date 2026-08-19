@@ -3,7 +3,7 @@ import shutil
 import traceback
 import uvicorn
 from datetime import datetime
-from fastapi import FastAPI, UploadFile, Form
+from fastapi import FastAPI, UploadFile, Form, File
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -84,7 +84,7 @@ def categorize_files(output_folder: str) -> dict:
 @app.post("/analyze")
 async def analyze_exercise(
     exercise_name: str = Form(...),
-    video: UploadFile = Form(...)
+    video: UploadFile = File(...)
 ):
     """
     Main endpoint:
